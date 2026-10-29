@@ -1,0 +1,106 @@
+{
+    "overheating": {
+        "name": "Overheating",
+        "severity": "HIGH",
+        "conditions": {
+            "temperature": {
+                "operator": ">",
+                "value": 70
+            }
+        },
+        "causes": [
+            "Excessive device load",
+            "Poor ventilation",
+            "Cooling system failure"
+        ],
+        "actions": [
+            "Reduce device load",
+            "Check ventilation",
+            "Inspect the cooling system"
+        ]
+    },
+
+    "overvoltage": {
+        "name": "Overvoltage",
+        "severity": "HIGH",
+        "conditions": {
+            "voltage": {
+                "operator": ">",
+                "value": 250
+            }
+        },
+        "causes": [
+            "Unstable power supply",
+            "Voltage regulator failure",
+            "Electrical surge"
+        ],
+        "actions": [
+            "Check the power supply",
+            "Inspect the voltage regulator",
+            "Disconnect the device if voltage remains dangerously high"
+        ]
+    },
+
+    "undervoltage": {
+        "name": "Undervoltage",
+        "severity": "MEDIUM",
+        "conditions": {
+            "voltage": {
+                "operator": "<",
+                "value": 210
+            }
+        },
+        "causes": [
+            "Weak power supply",
+            "Loose connection",
+            "Power source instability"
+        ],
+        "actions": [
+            "Check power connections",
+            "Check the power source",
+            "Inspect wiring"
+        ]
+    },
+
+    "overcurrent": {
+        "name": "Overcurrent",
+        "severity": "HIGH",
+        "conditions": {
+            "current": {
+                "operator": ">",
+                "value": 10
+            }
+        },
+        "causes": [
+            "Excessive electrical load",
+            "Short circuit",
+            "Motor or component fault"
+        ],
+        "actions": [
+            "Reduce electrical load",
+            "Check for short circuits",
+            "Inspect connected components"
+        ]
+    },
+
+    "high_power_consumption": {
+        "name": "Excessive Power Consumption",
+        "severity": "MEDIUM",
+        "conditions": {
+            "power": {
+                "operator": ">",
+                "value": 2000
+            }
+        },
+        "causes": [
+            "High electrical load",
+            "Inefficient equipment",
+            "Component malfunction"
+        ],
+        "actions": [
+            "Check connected loads",
+            "Inspect equipment efficiency",
+            "Check for abnormal component behavior"
+        ]
+    }
+}

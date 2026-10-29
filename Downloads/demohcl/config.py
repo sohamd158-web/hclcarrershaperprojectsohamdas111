@@ -1,0 +1,16 @@
+
+
+MQTT_BROKER = "6a0b07d760b5474d88e799ece85b234f.s1.eu.hivemq.cloud"
+MQTT_PORT = 8883
+
+MQTT_USERNAME = "sohamd_158"
+MQTT_PASSWORD = "sD2345@12"
+
+
+MQTT_TOPIC = "iot/device/001/sensor"
+
+
+DEVICE_ID = "DEVICE_001"
+
+
+PUBLISH_INTERVAL = 2
